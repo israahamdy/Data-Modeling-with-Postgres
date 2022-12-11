@@ -24,6 +24,8 @@ ___
         > 4. time - timestamps of records in songplays broken down into specific units
         > (start_time, hour, day, week, month, year, weekday)
 
+![ER diagram](erd.png)
+
 - Build ETL Processes and write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
 
 - Run Sanity Tests in the "test.ipynb" notebook to evaluate the code and catch any silly mistakes. test column data types, primary key constraints and not-null constraints as well look for on-conflict clauses wherever required.
